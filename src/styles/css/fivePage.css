@@ -1,0 +1,14 @@
+.style__company {
+    display: flex;
+    max-width: 150px;
+    max-height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card__company {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

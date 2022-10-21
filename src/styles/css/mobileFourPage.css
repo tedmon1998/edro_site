@@ -17,5 +17,14 @@
 
     }
 
+    .upper__class_second {
+        margin-top: -15%;
+    }
+
+    .animation__three{
+        max-width: 280px;
+         max-height: 280px
+    }
+
 
 }

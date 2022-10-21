@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <title>EDRO</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/css/sliderCompany.css">
+    <link rel="stylesheet" href="src/styles/css/owl.carousel.css">
     <link rel="stylesheet" href="src/styles/css/slider.css">
     <link rel="stylesheet" href="src/styles/css/firstPage.css">
     <link rel="stylesheet" href="src/styles/css/secondPage.css">
@@ -20,6 +22,7 @@
     <link rel="stylesheet" href="src/styles/css/mobileSecondPage.css">
     <link rel="stylesheet" href="src/styles/css/mobileTheerdPage.css">
     <link rel="stylesheet" href="src/styles/css/mobileFourPage.css">
+    <link rel="stylesheet" href="src/styles/css/fivePage.css">
     <link rel="stylesheet" href="src/styles/css/border__style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous" />
@@ -44,7 +47,11 @@
 
 
             <div class="center_header">
-                <a href="#main" class="logo"><img class="edro_logo" src="src/img/EdroLOGO.png" alt=""></a>
+                <a href="#main" class="logo">
+                    <object type="image/svg+xml" class="edro_logo" data="src/img/EdroLOGO.svg">
+                        <img class="edro_logo" src="src/img/EdroLOGO.png" alt="EDRO">
+                    </object>
+                </a>
             </div>
 
             <ul class="mnu_right">
@@ -89,7 +96,12 @@
         </header>
 
         <div class="center-header">
-            <a href="#main" class="logo"><img class="edro-logo-mobile" src="src/img/EdroLOGO.png" alt=""></a>
+
+            <a href="#main" class="logo">
+                <object type="image/svg+xml" class="edro-logo-mobile" data="src/img/EdroLOGO.svg">
+                    <img class="edro-logo-mobile" src="src/img/EdroLOGO.png" alt="EDRO">
+                </object>
+            </a>
         </div>
     </div>
     <!-- ---------------------------------------------------------------------- -->
@@ -172,7 +184,7 @@
                 </div>
 
                 <div class="mainContentSecond" data-aos="fade-up-left">
-                    <img style="display: block;" class="mainContentSecond__diabetes" src="src/img/ed.gif" draggable="false" />
+                    <img class="mainContentSecond__diabetes" src="src/img/ed.gif" draggable="false" />
                 </div>
 
             </div>
@@ -183,7 +195,7 @@
             <div class="new-page-container">
                 <div class="title__container">
                     <div class="title__text" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        <h1 class="title__style__center">Ключевые технологии разработки программного обеспечения</h1>
+                        <h1 class="title__style__center"><span class="title__style__center just__border">Ключевые</span> векторы разработки</h1>
                     </div>
                 </div>
             </div>
@@ -208,7 +220,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-6 content">
-                                        <h5 class="title__tech just__border">Парсинг<h5>
+                                        <h5 class="title__tech just__border">Parsing<h5>
                                                 <h5 class="text__tech">Разработаем индивидуальный парсер под вашу задачу.<br />
                                                     Соберем любые данные с сайтов конкурентов или поставщиков и предоставим в необходимом формате по адекватной стоимости. Парсим каталоги товаров или
                                                     соберем только отсутствующие данные с сайтов поставщиков.<h5>
@@ -217,7 +229,7 @@
                             </div>
                             <div class="carousel-item">
                                 <div class="row h-100 align-items-center">
-                                    <div class="col-lg-6 d-flex justify-content-center align-items-center title upper__class">
+                                    <div class="col-lg-6 d-flex justify-content-center align-items-center title upper__class_second">
                                         <div class="secondContent">
                                             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                                             <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_L72m3bQKrm.json" background="transparent" speed="1"
@@ -225,9 +237,11 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-6 content">
-                                        <h5 class="title__tech">Мобильная разрабокта<h5>
+                                        <h5 class="title__tech just__border">Mobile development<h5>
                                                 <h5 class="text__tech">Разработаем мобильное приложение под ваши нужды.<br />
-                                                    Создаем iOS и Android приложения, которые легко развивать и поддерживать. Расширим спектр влияния Вашего бизнеса!<h5>
+                                                    Создаем iOS и Android приложения, которые легко развивать и поддерживать. Мы запускаем приложения быстрее и дешевле благодаря кросс-платформенной
+                                                    разработке. Расширим градус влияния Вашего бизнеса!
+                                                    <h5>
 
                                     </div>
                                 </div>
@@ -235,21 +249,21 @@
                             </div>
                             <div class="carousel-item">
                                 <div class="row h-100 align-items-center">
-                                    <div class="col-lg-6 d-flex justify-content-center align-items-center title">
-                                        <h3>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales, metu
-                                        </h3>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales, metus ac
-                                        fringilla suscipit, nulla massa mollis leo, ut maximus odio ex sit amet elit. Nullam varius
-                                        ante orci, quis rhoncus velit tempor sit amet. Nulla lacinia, sem sed euismod dignissim,
-                                        ante nibh iaculis
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Email address</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    <div class="col-lg-6 d-flex justify-content-center align-items-center title upper__class_second">
+                                        <div class="secondContent">
+                                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                                            <lottie-player class="animation__three" src="https://assets9.lottiefiles.com/packages/lf20_ctaacxzb.json" background="transparent" speed="1" loop autoplay>
+                                            </lottie-player>
+                                            </lottie-player>
                                         </div>
+                                    </div>
+                                    <div class="col-lg-6 content">
+                                        <h5 class="title__tech just__border">Web development<h5>
+                                                <h5 class="text__tech">Полный комплекс разработки высоконагруженных веб-приложений. Ведем от UX до UI, рубим front не топором, копаем back до золота и
+                                                    тестируем, как космонавтов. Не играем в "кружок юного разработчика".
+                                                    Выводим .
+                                                    <h5>
+
                                     </div>
                                 </div>
                                 <!--<button class="btn btn-next">Next</button>-->
@@ -261,8 +275,26 @@
 
             </div>
         </div>
+        <!-- ------------------------------------------------------------------------- -->
+
+        <div class="owl-carousel owl-theme">
+            <div>
+                <object class="style__company" type="image/svg+xml" data="src/img/surgu.svg" alt="">
+                </object>
+            </div>
+            <div>
+                <img class="style__company" src="src/img/ART_LAB.png" draggable="false" />
+            </div>
+            <div>
+                <img class="style__company" src="src/img/Logo.png" draggable="false" />
+               
+            </div>
+
+
+        </div>
 
     </div>
+
 
 
     <script src="src/js/jquery-3.6.1.min.js"></script>
@@ -275,8 +307,10 @@
     <script src="src/js/bootstrapSlider.js"></script>
     <script src="src/js/onclick.js"></script>
     <script src="src/js/animation.js"></script>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="src/js/owl/owl.carousel.js"></script>
+    <script src="src/js/sliderCompany.js"></script>
     <script>
         AOS.init();
     </script>
