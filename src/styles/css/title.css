@@ -1,0 +1,50 @@
+.title__container {
+    margin: 45px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.title__container div {
+    margin: 0px 5px;
+}
+
+.new-page-container {
+    margin: 20px;
+}
+
+.new-page-container::before {
+    display: block;
+    content: ". . .";
+    font-size: 20pt;
+    color: black;
+    display: block;
+    text-align: center;
+    letter-spacing: 40px;
+    left: 20px;
+    position: relative;
+}
+
+
+@media (max-width: 1000px) {
+    .new-page-container {
+        margin: 0 0 20px 0;
+    }
+
+    .title__container {
+        margin: 0 0 40px 0;
+    }
+
+    .new-page-container::before {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) and (min-height: 950px) {
+    .title__container {
+        margin: 0 0 70px 0;
+    }
+}

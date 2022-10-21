@@ -1,0 +1,476 @@
+header{
+    height: auto;
+    margin: auto;
+    max-width: 80%;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(81, 81, 81, 1);   
+}
+
+                     /* Работа с ЛОГО */
+/* ____________________________________________________ */
+.photo {
+    min-width: 15%;
+    max-width: 30%;
+    
+}
+
+.logo {
+    width: 100%; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+
+}
+.center_header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+
+header .logo{  
+    width: 100%;
+ 
+}
+/* ____________________________________________________ */
+
+
+               /* Работа с навигационным меню */
+/* ____________________________________________________ */
+.mnu_top {
+    position: relative;
+    display: block;
+    top: 10px;
+    left: 20px;
+    padding: 0px;
+}
+header .mnu_top{
+    list-style-type: none; 
+}
+
+header .mnu_top li{
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 20pt;
+    color: black;
+}
+
+header .mnu_top li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18pt;
+    font-weight: 300;
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+    font-family: lin;
+    
+}
+
+header .mnu_top li a:hover{
+    color: gray;
+}
+/* ____________________________________________________ */
+
+
+            /* Работа c полем контакты в header  */
+/* ____________________________________________________ */
+.ws-svg-icon{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    line-height: 1;
+    margin-right: 5px;
+}
+
+.mnu_right{
+    position: relative;
+    display: block;
+    top: 10px;
+    margin-right:1%;
+
+    
+}
+
+.mnu_right a{
+    font-size: 12pt;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: lin;
+}
+
+.mnu_right a:hover{
+    color: gray;
+}
+/* ____________________________________________________ */
+
+
+           /* Header обёртка для закрепления */
+/* ____________________________________________________ */
+.header_container{
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    position: fixed; 
+}
+/* ____________________________________________________ */
+
+
+        /* Работа с первой страничкой (текст, гиф) */
+/* ____________________________________________________ */
+.content_main{
+    position: relative;
+    /* left: 10%; */
+    top: 182px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+li{
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.text_info{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-family: lin;
+    color: black;
+    font-size: 35pt;
+    line-height: 80pt;
+}
+
+.gif_first_page{
+    position: relative;
+    
+}
+
+.animation{
+    position: relative;
+    top: 10%;
+    
+}
+
+html,body,*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+.separator{
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 3%;
+    margin-left: 35px;
+
+    display: flex;
+    justify-content: center;
+    font-size: 25pt;
+    letter-spacing: 35px;
+
+}
+/* ____________________________________________________ */
+                    /* Работа со 2 страницей */
+.fon_cut{
+    padding: 1% 0;
+    background-color: rgba(245, 255, 251, 1);
+
+}
+
+
+.title_text{
+    display: flex;
+    justify-content: center;
+    font-family: lin;
+    font-size: 16pt;  
+}
+
+.slider_photo{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0 10%;
+    
+}
+
+.text_story{
+    position: relative;
+    font-size: 8pt;
+    font-family: lin;
+    width: 100%;
+    margin-top: 3%;
+    margin-left: 10%;
+    left: 100px;
+    letter-spacing: 3px;
+    line-height: 25pt;
+}
+
+.separator_2{
+    position: relative;
+    margin-left: 35px;
+    bottom: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 25pt;
+    letter-spacing: 35px;
+    background-color: rgba(245, 255, 251, 1);
+
+}
+
+.logoBio{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 20px;
+}
+
+.logoScan{
+    position: relative;
+    left: 10px;
+}
+/* ____________________________________________________ */
+                    /* Работа с 3 страницей */
+.theerd_page{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 4% 20%;
+    background-color: rgba(245, 255, 251, 1);
+    /* bottom: 50px; */
+
+}
+
+.dbLogo{
+    max-width: 90%;
+}
+
+.text_story2{
+    position: relative;
+    font-size: 8pt;
+    font-family: lin;
+    width: 50%;
+    margin-top: 3%;
+    letter-spacing: 3px;
+    line-height: 25pt;
+}
+/* ____________________________________________________ */
+                    /* Работа с 4 страницей */
+.text_story3{
+    position: relative;
+    font-size: 8pt;
+    font-family: lin;
+    width: 60%;
+    margin-top: 3%;
+    left: 50px;
+    letter-spacing: 3px;
+    line-height: 25pt;
+    top: 60px;
+}
+
+.fourth_page{
+    padding: 1% 20%;
+    background-color: rgba(237, 248, 255, 1);
+
+}
+
+.logoEasy{
+    position: relative;
+    top: 10%;
+    left: 10px;
+    max-width: 40%;
+}
+
+.logoEasyDia{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    
+
+}
+
+.diabetes_info{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.EasyDLogo{
+    max-width: 80%;
+}
+.separator_3{
+    position: relative;
+    padding-bottom: 55px;
+    margin-left: 35px;
+
+    display: flex;
+    justify-content: center;
+    font-size: 25pt;
+    letter-spacing: 35px;
+    background-color: rgba(237, 248, 255, 1);
+}
+/* ____________________________________________________ */
+                /* Работа с 5 страницей */
+.title_text2{
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    font-family: lin;
+    font-size: 16pt;  
+}
+
+.five_page{
+    padding: 1% 20%;
+}
+
+.text_story4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 8pt;
+    font-family: lin;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 3px;
+    line-height: 25pt;
+}
+/* ____________________________________________________ */
+                /* Работа с footer */
+.separator_4{
+    position: relative;
+    padding-bottom: 40px;
+    margin-left: 35px;
+
+    display: flex;
+    justify-content: center;
+    font-size: 25pt;
+    letter-spacing: 35px;
+    background-color: rgba(237, 248, 255, 1);
+}
+
+.footer_text{  
+    font-family: lin;
+    font-size: 10pt;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.footer{
+    border-top: 1px solid rgba(81, 81, 81, 1);
+    width: 50%;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: center;
+}
+
+.social{
+    max-width: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 2%;
+   
+}
+.container_social a{
+    margin-top: 3%;
+}
+.container_social{
+    display: flex;
+    justify-content: center;
+}
+                /* Настройка адаптивности */
+ /* ___________________________________________________ */
+
+ @media screen and (max-width: 1700px) {
+    header{
+        max-width: 90%;
+    }
+
+    header .mnu_top li a{
+        font-size: 12pt;
+        z-index: 1;
+    }
+
+    .mnu_right a{
+        font-size: 10pt;
+    }
+
+    .ws-svg-icon{
+        width: 18px;
+        height: 18px;
+    }
+
+    header .mnu_top li{
+        margin-right: 3px;
+        font-size: 12pt;
+    }
+
+    .center_header {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .text_info{
+        font-size: 25pt;
+    }
+    .fourth_page{
+    padding: 1% 5%;
+    }
+    
+    .text_story{
+        margin-left: 0%;
+        width: 90%
+    }
+    
+    .theerd_page{
+        padding: 4% 5%;
+    }
+    
+}
+/* ____________________________________________________ */
+
+
+@media screen and (max-width: 1200px) {
+    
+}
+
+
+                /* Настройка шрифтов */
+/* ____________________________________________________ */
+@font-face {
+    font-family: pixel;
+    src: url(../fonts/18965.ttf);
+  }
+
+@font-face {
+font-family: lin;
+src: url(../fonts/19168.ttf);
+}
+
+/* ____________________________________________________ */

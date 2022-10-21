@@ -1,0 +1,71 @@
+/* Основной блок для контента 2 блока */
+
+.firstContent {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    flex: 0.4;
+}
+
+.wrapperFrame {
+    width: 100%;
+    padding: 0 10%;
+    position: relative;
+    top: 100px;
+}
+
+.secondContent {
+
+    width: 100%;
+    flex: 0.6;
+
+}
+
+
+.mainBorder {
+    display: flex;
+    flex-direction: row;
+
+    height: calc(100vh - 200px);
+
+}
+
+.mainBorder>.secondContent {
+    order: 2;
+}
+
+.mainBorder>.firstContent {
+    order: 1;
+}
+
+.textStyle {
+    font-family: lin;
+    font-weight: 900;
+    font-size: 85pt;
+    color: #ffffff;
+    text-align: center;
+    /* -webkit-text-stroke: 0.04rem #000000; */
+    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+    letter-spacing: 6px;
+}
+
+.textStyle_colore {
+    font-family: lin;
+    font-weight: 900;
+    font-size: 85pt;
+    color: #2c2c2c;
+    text-align: center;
+}
+
+.just__border {
+    color: #ffffff;
+    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+    
+}
+
+.lotty__player {
+    max-height: 45%;
+    max-width: 45%;
+}

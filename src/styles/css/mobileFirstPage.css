@@ -1,0 +1,58 @@
+@media (max-width: 1000px) {
+    .wrapper {
+        top: 0px;
+    }
+
+    .mainBorder>.secondContent {
+        order: 3;
+    }
+
+    .mainBorder>.firstContent {
+        order: 4;
+    }
+
+    .mainBorder>.textStyle{
+        order: 1;
+    }
+
+    .mainBorder>.textStyle_colore{
+        order: 2;
+    }
+
+
+
+    .textStyle {
+        font-weight: 800;
+        font-size: 43pt;
+        text-align: center;
+        margin-bottom: 8%;
+
+    }
+
+    .textStyle_colore{
+        font-weight: 800;
+        font-size: 45pt;
+        text-align: center;
+        margin-bottom: 8%;
+    }
+
+    .mainBorder {
+        display: flex;
+        flex-direction: column;
+        color: #2c2c2c;
+        height: auto;
+
+    }
+
+    .wrapperFrame {
+        padding: 0 2%;
+
+    }
+
+    .lotty__player {
+        max-height: 55vh;
+        max-width: 55vw;
+
+    }
+
+}

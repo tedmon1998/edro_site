@@ -1,0 +1,51 @@
+@media (max-width: 1000px) {
+    .contentBorder {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contentBorder>.mainContentFirst {
+        order: 1;
+    }
+
+    .contentBorder>.mainContentSecond {
+        order: 2;
+    }
+
+
+
+    .textInfo {
+        font-size: 12pt;
+        font-family: lin;
+        font-weight: 700;
+        text-align: center;
+        line-height: 16pt;
+        letter-spacing: 2px;
+        margin: -8% 0 10% 0;
+        padding: 0 5%;
+
+    }
+
+    .title__style {
+        font-size: 20pt;
+        font-family: lin;
+        font-weight: 900;
+    }
+
+    .img__title {
+        max-width: 80%;
+        max-height: 80%;
+    }
+
+    .wrapper {
+        width: 200px;
+        height: 425px;
+    }
+
+    .title__container {
+        position: relative;
+        padding-left: 25px;
+    }
+
+}

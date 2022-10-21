@@ -1,0 +1,21 @@
+@media (max-width: 1000px) {
+    .title__style__center {
+        font-size: 20pt;
+        font-family: lin;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .upper__class {
+        margin-top: -5%;
+    }
+
+    .title__tech {
+        font-size: 18pt;
+        font-weight: 800;
+        text-align: center;
+
+    }
+
+
+}

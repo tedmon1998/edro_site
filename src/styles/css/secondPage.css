@@ -1,0 +1,32 @@
+.contentBorder{
+    display: flex; 
+    flex-direction: row;   
+}
+
+.mainContentFirst{
+    flex: 0.5;
+
+}
+
+.mainContentSecond{
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+}
+
+.textInfo{
+    font-size: 18pt;
+    font-family: lin;
+    font-weight: 700;
+    text-align: left;
+    line-height: 25pt;
+    letter-spacing: 2px;
+}
+
+.title__style{
+    font-size: 30pt;
+    font-family: lin;
+    font-weight: 900;
+
+}
+
