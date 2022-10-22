@@ -1,3 +1,8 @@
+a {
+    cursor: pointer;
+}
+
+
 /* Основной блок для контента 2 блока */
 
 .firstContent {
@@ -11,9 +16,8 @@
 
 .wrapperFrame {
     width: 100%;
-    padding: 0 10%;
+    padding: 100px 10% 120px 10%;
     position: relative;
-    top: 100px;
 }
 
 .secondContent {
@@ -62,7 +66,7 @@
 .just__border {
     color: #ffffff;
     text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
-    
+
 }
 
 .lotty__player {

@@ -1,4 +1,4 @@
-header{
+header {
     height: auto;
     margin: auto;
     max-width: 80%;
@@ -10,41 +10,43 @@ header{
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgba(81, 81, 81, 1);   
+    border-bottom: 1px solid rgba(81, 81, 81, 1);
 }
 
-                     /* Работа с ЛОГО */
+/* Работа с ЛОГО */
 /* ____________________________________________________ */
 .photo {
     min-width: 15%;
     max-width: 30%;
-    
+
 }
 
 .logo {
-    width: 100%; 
+    width: 100%;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
 
 
 }
+
 .center_header {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  
+
 }
 
-header .logo{  
+header .logo {
     width: 100%;
- 
+
 }
+
 /* ____________________________________________________ */
 
 
-               /* Работа с навигационным меню */
+/* Работа с навигационным меню */
 /* ____________________________________________________ */
 .mnu_top {
     position: relative;
@@ -53,18 +55,19 @@ header .logo{
     left: 20px;
     padding: 0px;
 }
-header .mnu_top{
-    list-style-type: none; 
+
+header .mnu_top {
+    list-style-type: none;
 }
 
-header .mnu_top li{
+header .mnu_top li {
     display: inline-block;
     margin-right: 15px;
     font-size: 20pt;
     color: black;
 }
 
-header .mnu_top li a{
+header .mnu_top li a {
     display: block;
     text-decoration: none;
     color: black;
@@ -74,18 +77,19 @@ header .mnu_top li a{
     -o-transition: color .2s ease;
     transition: color .2s ease;
     font-family: lin;
-    
+
 }
 
-header .mnu_top li a:hover{
+header .mnu_top li a:hover {
     color: gray;
 }
+
 /* ____________________________________________________ */
 
 
-            /* Работа c полем контакты в header  */
+/* Работа c полем контакты в header  */
 /* ____________________________________________________ */
-.ws-svg-icon{
+.ws-svg-icon {
     display: inline-block;
     width: 25px;
     height: 25px;
@@ -94,16 +98,16 @@ header .mnu_top li a:hover{
     margin-right: 5px;
 }
 
-.mnu_right{
+.mnu_right {
     position: relative;
     display: block;
     top: 10px;
-    margin-right:1%;
+    margin-right: 1%;
 
-    
+
 }
 
-.mnu_right a{
+.mnu_right a {
     font-size: 12pt;
     color: black;
     text-decoration: none;
@@ -111,26 +115,28 @@ header .mnu_top li a:hover{
     font-family: lin;
 }
 
-.mnu_right a:hover{
+.mnu_right a:hover {
     color: gray;
 }
+
 /* ____________________________________________________ */
 
 
-           /* Header обёртка для закрепления */
+/* Header обёртка для закрепления */
 /* ____________________________________________________ */
-.header_container{
-    z-index: 1;
+.header_container {
+    z-index: 999;
     background-color: white;
     width: 100%;
-    position: fixed; 
+    position: fixed;
 }
+
 /* ____________________________________________________ */
 
 
-        /* Работа с первой страничкой (текст, гиф) */
+/* Работа с первой страничкой (текст, гиф) */
 /* ____________________________________________________ */
-.content_main{
+.content_main {
     position: relative;
     /* left: 10%; */
     top: 182px;
@@ -139,12 +145,12 @@ header .mnu_top li a:hover{
     max-width: 100%;
 }
 
-li{
+li {
     list-style-type: none;
     margin: 10px 0;
 }
 
-.text_info{
+.text_info {
     position: relative;
     margin-left: 300px;
     margin-top: 50px;
@@ -154,24 +160,26 @@ li{
     line-height: 80pt;
 }
 
-.gif_first_page{
+.gif_first_page {
     position: relative;
-    
+
 }
 
-.animation{
+.animation {
     position: relative;
     top: 10%;
-    
+
 }
 
-html,body,*{
+html,
+body,
+* {
     padding: 0px;
     margin: 0px;
     scroll-behavior: smooth;
 }
 
-.separator{
+.separator {
     position: relative;
     margin-top: 200px;
     margin-bottom: 3%;
@@ -183,31 +191,32 @@ html,body,*{
     letter-spacing: 35px;
 
 }
+
 /* ____________________________________________________ */
-                    /* Работа со 2 страницей */
-.fon_cut{
+/* Работа со 2 страницей */
+.fon_cut {
     padding: 1% 0;
     background-color: rgba(245, 255, 251, 1);
 
 }
 
 
-.title_text{
+.title_text {
     display: flex;
     justify-content: center;
     font-family: lin;
-    font-size: 16pt;  
+    font-size: 16pt;
 }
 
-.slider_photo{
+.slider_photo {
     display: flex;
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 0 10%;
-    
+
 }
 
-.text_story{
+.text_story {
     position: relative;
     font-size: 8pt;
     font-family: lin;
@@ -219,7 +228,7 @@ html,body,*{
     line-height: 25pt;
 }
 
-.separator_2{
+.separator_2 {
     position: relative;
     margin-left: 35px;
     bottom: 70px;
@@ -231,20 +240,21 @@ html,body,*{
 
 }
 
-.logoBio{
+.logoBio {
     position: relative;
     display: flex;
     justify-content: center;
     top: 20px;
 }
 
-.logoScan{
+.logoScan {
     position: relative;
     left: 10px;
 }
+
 /* ____________________________________________________ */
-                    /* Работа с 3 страницей */
-.theerd_page{
+/* Работа с 3 страницей */
+.theerd_page {
     position: relative;
     display: flex;
     justify-content: center;
@@ -254,11 +264,11 @@ html,body,*{
 
 }
 
-.dbLogo{
+.dbLogo {
     max-width: 90%;
 }
 
-.text_story2{
+.text_story2 {
     position: relative;
     font-size: 8pt;
     font-family: lin;
@@ -267,9 +277,10 @@ html,body,*{
     letter-spacing: 3px;
     line-height: 25pt;
 }
+
 /* ____________________________________________________ */
-                    /* Работа с 4 страницей */
-.text_story3{
+/* Работа с 4 страницей */
+.text_story3 {
     position: relative;
     font-size: 8pt;
     font-family: lin;
@@ -281,30 +292,30 @@ html,body,*{
     top: 60px;
 }
 
-.fourth_page{
+.fourth_page {
     padding: 1% 20%;
     background-color: rgba(237, 248, 255, 1);
 
 }
 
-.logoEasy{
+.logoEasy {
     position: relative;
     top: 10%;
     left: 10px;
     max-width: 40%;
 }
 
-.logoEasyDia{
+.logoEasyDia {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     top: 20px;
-    
+
 
 }
 
-.diabetes_info{
+.diabetes_info {
     position: relative;
     display: grid;
     grid-template-columns: 1fr 0.5fr;
@@ -314,10 +325,11 @@ html,body,*{
 }
 
 
-.EasyDLogo{
+.EasyDLogo {
     max-width: 80%;
 }
-.separator_3{
+
+.separator_3 {
     position: relative;
     padding-bottom: 55px;
     margin-left: 35px;
@@ -328,22 +340,23 @@ html,body,*{
     letter-spacing: 35px;
     background-color: rgba(237, 248, 255, 1);
 }
+
 /* ____________________________________________________ */
-                /* Работа с 5 страницей */
-.title_text2{
+/* Работа с 5 страницей */
+.title_text2 {
     position: relative;
-    
+
     display: flex;
     justify-content: center;
     font-family: lin;
-    font-size: 16pt;  
+    font-size: 16pt;
 }
 
-.five_page{
+.five_page {
     padding: 1% 20%;
 }
 
-.text_story4{
+.text_story4 {
     position: relative;
     display: flex;
     justify-content: center;
@@ -356,9 +369,10 @@ html,body,*{
     letter-spacing: 3px;
     line-height: 25pt;
 }
+
 /* ____________________________________________________ */
-                /* Работа с footer */
-.separator_4{
+/* Работа с footer */
+.separator_4 {
     position: relative;
     padding-bottom: 40px;
     margin-left: 35px;
@@ -370,7 +384,7 @@ html,body,*{
     background-color: rgba(237, 248, 255, 1);
 }
 
-.footer_text{  
+.footer_text {
     font-family: lin;
     font-size: 10pt;
     text-align: center;
@@ -378,53 +392,56 @@ html,body,*{
     margin-bottom: 3%;
 }
 
-.footer{
+.footer {
     border-top: 1px solid rgba(81, 81, 81, 1);
     width: 50%;
 }
 
-.footer_container{
+.footer_container {
     display: flex;
     justify-content: center;
 }
 
-.social{
+.social {
     max-width: 30px;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 2%;
-   
+
 }
-.container_social a{
+
+.container_social a {
     margin-top: 3%;
 }
-.container_social{
+
+.container_social {
     display: flex;
     justify-content: center;
 }
-                /* Настройка адаптивности */
- /* ___________________________________________________ */
 
- @media screen and (max-width: 1700px) {
-    header{
+/* Настройка адаптивности */
+/* ___________________________________________________ */
+
+@media screen and (max-width: 1700px) {
+    header {
         max-width: 90%;
     }
 
-    header .mnu_top li a{
+    header .mnu_top li a {
         font-size: 12pt;
         z-index: 1;
     }
 
-    .mnu_right a{
+    .mnu_right a {
         font-size: 10pt;
     }
 
-    .ws-svg-icon{
+    .ws-svg-icon {
         width: 18px;
         height: 18px;
     }
 
-    header .mnu_top li{
+    header .mnu_top li {
         margin-right: 3px;
         font-size: 12pt;
     }
@@ -435,42 +452,42 @@ html,body,*{
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    
-    .text_info{
+
+    .text_info {
         font-size: 25pt;
     }
-    .fourth_page{
-    padding: 1% 5%;
+
+    .fourth_page {
+        padding: 1% 5%;
     }
-    
-    .text_story{
+
+    .text_story {
         margin-left: 0%;
         width: 90%
     }
-    
-    .theerd_page{
+
+    .theerd_page {
         padding: 4% 5%;
     }
-    
+
 }
+
 /* ____________________________________________________ */
 
 
-@media screen and (max-width: 1200px) {
-    
-}
+@media screen and (max-width: 1200px) {}
 
 
-                /* Настройка шрифтов */
+/* Настройка шрифтов */
 /* ____________________________________________________ */
 @font-face {
     font-family: pixel;
     src: url(../fonts/18965.ttf);
-  }
+}
 
 @font-face {
-font-family: lin;
-src: url(../fonts/19168.ttf);
+    font-family: lin;
+    src: url(../fonts/19168.ttf);
 }
 
 /* ____________________________________________________ */

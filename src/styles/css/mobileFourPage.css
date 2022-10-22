@@ -21,9 +21,19 @@
         margin-top: -15%;
     }
 
-    .animation__three{
+    .animation__three {
         max-width: 280px;
-         max-height: 280px
+        max-height: 280px
+    }
+
+    .text__tech {
+        font-size: 12pt;
+        font-family: lin;
+        font-weight: 700;
+        text-align: left;
+        line-height: 16pt;
+        letter-spacing: 2px;
+
     }
 
 

@@ -1,14 +1,54 @@
 .style__company {
-    display: flex;
     max-width: 150px;
     max-height: 150px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.style__company:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+
+.content__center {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.number__phone {
+    color: #2c2c2c;
+}
 
-.card__company {
-    align-items: center;
-    justify-content: center;
+.contact_style_text {
+    font-size: 14pt;
+    font-family: lin;
+    font-weight: 800;
+    text-align: left;
+    line-height: 16pt;
+    letter-spacing: 2px;
+    padding: 0 7%;
+}
+
+.map__style {
+    border-radius: 25px;
+    width: 700px;
+    height: 400px;
+}
+
+.map__center {
     display: flex;
+    justify-content: center;
+    flex: 0.6;
+}
+
+.text__and__map {
+    display: flex;
+}
+
+.text__class {
+    display: flex;
+    align-items: center;
+    flex: 0.4;
 }

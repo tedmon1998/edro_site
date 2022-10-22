@@ -1,21 +1,21 @@
-.contentBorder{
-    display: flex; 
-    flex-direction: row;   
+.contentBorder {
+    display: flex;
+    flex-direction: row;
 }
 
-.mainContentFirst{
+.mainContentFirst {
     flex: 0.5;
 
 }
 
-.mainContentSecond{
+.mainContentSecond {
     flex: 0.5;
     display: flex;
     justify-content: center;
 }
 
-.textInfo{
-    font-size: 18pt;
+.textInfo {
+    font-size: 14pt;
     font-family: lin;
     font-weight: 700;
     text-align: left;
@@ -23,10 +23,9 @@
     letter-spacing: 2px;
 }
 
-.title__style{
+.title__style {
     font-size: 30pt;
     font-family: lin;
     font-weight: 900;
 
 }
-

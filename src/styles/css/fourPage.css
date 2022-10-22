@@ -4,6 +4,12 @@
     font-weight: 900;
     text-align: center;
 }
+
+.title__style__center span,
+.title__style {
+    letter-spacing: 3px;
+}
+
 .title__tech {
     font-size: 20pt;
     font-weight: 800;
@@ -11,7 +17,7 @@
 
 }
 
-.animation__three{
+.animation__three {
     max-width: 450px;
-     max-height: 450px
+    max-height: 450px
 }

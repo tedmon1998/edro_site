@@ -11,11 +11,11 @@
         order: 4;
     }
 
-    .mainBorder>.textStyle{
+    .mainBorder>.textStyle {
         order: 1;
     }
 
-    .mainBorder>.textStyle_colore{
+    .mainBorder>.textStyle_colore {
         order: 2;
     }
 
@@ -29,7 +29,7 @@
 
     }
 
-    .textStyle_colore{
+    .textStyle_colore {
         font-weight: 800;
         font-size: 45pt;
         text-align: center;
@@ -45,7 +45,7 @@
     }
 
     .wrapperFrame {
-        padding: 0 2%;
+        padding: 110px 2% 120px 2%;
 
     }
 

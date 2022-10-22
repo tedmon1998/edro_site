@@ -1,0 +1,41 @@
+@media (max-width: 1000px) {
+    .map__style {
+        max-width: 350px;
+        max-height: 200px;
+        border-radius: 20px;
+    }
+
+    .map__center {
+        display: flex;
+        justify-content: center;
+        margin-top: 7%;
+    }
+
+    .contact_style_text {
+        font-size: 12pt;
+        font-family: lin;
+        font-weight: 700;
+        text-align: left;
+        line-height: 16pt;
+        letter-spacing: 2px;
+        padding: 0 7%;
+    }
+
+    .contact_style_text_time {
+        font-size: 10pt;
+        font-family: lin;
+        font-weight: 700;
+        text-align: left;
+        line-height: 16pt;
+        letter-spacing: 2px;
+        margin-left: 9%;
+    }
+
+    .text__and__map {
+        flex-direction: column;
+    }
+}
+
+.contact_style_text_time td {
+    padding: 0 2px;
+}

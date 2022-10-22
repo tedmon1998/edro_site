@@ -1,0 +1,41 @@
+$test: red 2px solid;
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 80%;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(164, 164, 164);
+}
+
+@media (max-width: 1000px) {
+    footer {
+        width: 96%;
+    }
+}
+
+.footer-rights-protected {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    flex-direction: column;
+}
+
+.footer__container__social {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 333.16px;
+    margin-bottom: 10px;
+}
+
+.footer-rights-protected {
+}
