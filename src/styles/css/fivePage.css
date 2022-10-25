@@ -52,3 +52,7 @@
     align-items: center;
     flex: 0.4;
 }
+
+.border__style__last {
+    margin-bottom: 1%;
+}

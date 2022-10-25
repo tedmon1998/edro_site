@@ -66,7 +66,7 @@ h2 {
     right: 10px;
     width: 100px;
     border-radius: 25px;
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(111, 111, 111);
     color: #fff;
     -webkit-box-shadow: 0px 0px 5px 5px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 0px 0px 5px 5px rgba(34, 60, 80, 0.2);
@@ -131,6 +131,10 @@ input {
     border-radius: 20px;
 }
 
+.btn:hover {
+    color: rgb(169, 169, 169);
+}
+
 /* Media Querys */
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -170,3 +174,9 @@ input {
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {}
+
+@media (max-width: 1000px) {
+    .btn:hover {
+        color: white;
+    }
+}

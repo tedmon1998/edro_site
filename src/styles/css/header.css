@@ -76,6 +76,7 @@ header .mnu_top li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 
 .center_header {
@@ -83,12 +84,11 @@ header .mnu_top li a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    z-index: -1;
 }
 
 header .logo {
     width: 100%;
-
 }
 
 /* ____________________________________________________ */

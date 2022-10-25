@@ -14,11 +14,17 @@ footer {
     footer {
         width: 96%;
     }
+    .footer-rights-protected span {
+    }
 }
 
 .footer-rights-protected {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text_style_footer {
+    color: black;
 }
 
 .footer__container {

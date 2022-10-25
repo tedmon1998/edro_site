@@ -3,11 +3,10 @@ lotty__player.onclick = () => scrollToPosition(BioScan)
 
 const BioScan = document.getElementById('BioScan')
 const EasyDiabetes = document.getElementById('EasyDiabetes')
-const about = document.getElementById('about')
+const Development = document.getElementById('Development')
 const contacts = document.getElementById('contacts')
 
 function getElementPosition(block) {
-    console.log(`block.getBoundingClientRect().top ${block.getBoundingClientRect().top}`);
     return block.getBoundingClientRect().top + window.pageYOffset
 }
 // const easyDiabetesPosition = getElementPosition(EasyDiabetes)
@@ -19,5 +18,6 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
 }
 function scrollToPosition(elementName) {
     const position = getElementPosition(elementName) - offset;
+    console.log(position);
     scrollTo(0, position);
 }
