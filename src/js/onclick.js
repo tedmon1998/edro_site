@@ -5,6 +5,13 @@ const BioScan = document.getElementById('BioScan')
 const EasyDiabetes = document.getElementById('EasyDiabetes')
 const Development = document.getElementById('Development')
 const contacts = document.getElementById('contacts')
+const logo = document.getElementById('logo')
+const logo_mobile = document.getElementById('logo_mobile')
+
+logo.onclick = () => scrollToPosition(main)
+
+logo_mobile.onclick = () => scrollToPosition(main)
+
 
 function getElementPosition(block) {
     return block.getBoundingClientRect().top + window.pageYOffset

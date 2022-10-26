@@ -7,6 +7,7 @@
 
 .header-container-mobile {
     height: 80px;
+    top: -2px;
     background-color: white;
     width: 100%;
     position: fixed;
@@ -19,12 +20,12 @@
     max-width: 30%;
 }
 
-.logo {
+/* .logo {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .center-header {
     position: absolute;
@@ -151,13 +152,18 @@
     border-bottom: 1px solid #ababab;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1120px) {
     .edro-logo-mobile {
         max-width: 30%;
     }
 
     .burger-menu_button {
         left: 10px;
+    }
+
+    .logo-svg {
+        width: 13vw;
+        height: 13vh;
     }
 
     .burger-menu_lines::before,
@@ -206,13 +212,31 @@
 }
 
 @media (max-width: 800px) {
+    .logo-svg {
+        width: 16vw;
+        height: 16vh;
+    }
+
     .edro-logo-mobile {
         max-width: 40%;
     }
 }
 
 @media (max-width: 700px) {
+    .logo-svg {
+        width: 20vw;
+        height: 20vh;
+    }
+
     .edro-logo-mobile {
         max-width: 50%;
     }
+}
+
+@media (max-width: 500px) {
+    .logo-svg {
+        width: 25vw;
+        height: 25vh;
+    }
+
 }

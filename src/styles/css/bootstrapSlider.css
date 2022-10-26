@@ -62,8 +62,8 @@ h2 {
 
 .btn-next {
     position: absolute;
-    bottom: 5px;
-    right: 10px;
+    bottom: 30px;
+    right: 50px;
     width: 100px;
     border-radius: 25px;
     background-color: rgb(111, 111, 111);
@@ -128,7 +128,7 @@ input {
 .carousel-indicators li.active {
     background: #000;
     width: 10px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .btn:hover {
@@ -140,8 +140,8 @@ input {
 @media (min-width: 576px) {
     .bgTitle {
         height: 55%;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
         width: 100%;
         top: 0;
     }
@@ -159,8 +159,8 @@ input {
     .bgTitle {
         height: 100%;
         width: 50%;
-        border-bottom-left-radius: 15px;
-        border-top-right-radius: 0px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
     }
 
     .card {
@@ -178,5 +178,11 @@ input {
 @media (max-width: 1000px) {
     .btn:hover {
         color: white;
+    }
+
+    .btn-next {
+        bottom: 0px;
+        right: 10px;
+
     }
 }

@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8">
     <title>EDRO</title>
+    <link rel="stylesheet" href="src/styles/css/preloader.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="src/styles/css/sliderCompany.css">
     <link rel="stylesheet" href="src/styles/css/owl.carousel.css">
@@ -12,7 +13,6 @@
     <link rel="stylesheet" href="src/styles/css/firstPage.css">
     <link rel="stylesheet" href="src/styles/css/secondPage.css">
     <link rel="stylesheet" href="src/styles/css/title.css">
-    <link rel="stylesheet" href="src/js/slider.js">
     <link rel="stylesheet" href="src/styles/css/header.css">
     <link rel="stylesheet" href="src/styles/css/burger.css">
     <link rel="stylesheet" href="src/styles/css/fonts.css">
@@ -35,6 +35,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 </head>
 
+<div class="center-body" id="loader">
+    <div class="loader-ball-13">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+
 <body id="main">
     <div class="header_container" id="desctop">
         <header class="header-container">
@@ -49,12 +62,11 @@
             </ul>
 
 
-            <div class="center_header">
-                <a href="#main" class="logo">
-                    <object type="image/svg+xml" class="edro_logo" data="src/img/EdroLOGO.svg">
+            <div class="center_header" id="logo">
+                <div class="logo-svg"></div>
+                <!-- <object type="image/svg+xml" class="edro_logo" data="src/img/EdroLOGO.svg">
                         <img class="edro_logo" src="src/img/EdroLOGO.png" alt="EDRO">
-                    </object>
-                </a>
+                    </object> -->
             </div>
 
             <ul class="mnu_right">
@@ -112,13 +124,10 @@
             <div class="burger-menu_overlay"></div>
         </header>
 
-        <div class="center-header">
-
-            <a href="#main" class="logo">
-                <object type="image/svg+xml" class="edro-logo-mobile" data="src/img/EdroLOGO.svg">
-                    <img class="edro-logo-mobile" src="src/img/EdroLOGO.png" alt="EDRO">
-                </object>
-            </a>
+        <div class="center-header" id="logo_mobile">
+            <span class="logo">
+                <div class="logo-svg"></div>
+            </span>
         </div>
 
         <ul class="mnu_right">
@@ -147,7 +156,6 @@
                 </lottie-player>
             </div>
             <div class="secondContent">
-                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                 <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ba013t74.json" background="transparent" speed="1" style="max-width: 100%; max-height: 100%;" loop autoplay>
                 </lottie-player>
             </div>
@@ -271,7 +279,6 @@
                                 <div class="row h-100 align-items-center">
                                     <div class="col-lg-6 d-flex justify-content-center align-items-center title upper__class">
                                         <div class="secondContent">
-                                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                                             <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_u8jppxsl.json" background="transparent" speed="1"
                                                 style="max-width: 350px; max-height: 350px;" loop autoplay></lottie-player>
                                         </div>
@@ -289,7 +296,6 @@
                                 <div class="row h-100 align-items-center">
                                     <div class="col-lg-6 d-flex justify-content-center align-items-center title upper__class_second">
                                         <div class="secondContent">
-                                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                                             <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_L72m3bQKrm.json" background="transparent" speed="1"
                                                 style="max-width: 450px; max-height: 450px;" loop autoplay></lottie-player>
                                         </div>
@@ -435,17 +441,15 @@
     </div>
 
 
-
+    <script src="src/js/preloader.js"></script>
     <script src="src/js/jquery-3.6.1.min.js"></script>
     <script src="src/js/burger.js"></script>
-    <script src="src/js/slider.js"></script>
     <script src="src/js/resize.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="src/js/bootstrapSlider.js"></script>
     <script src="src/js/onclick.js"></script>
-    <script src="src/js/animation.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="src/js/owl/owl.carousel.js"></script>
@@ -454,9 +458,6 @@
     <script src="src/js/slider__photo.js"></script>
     <script>
         AOS.init();
-    </script>
-    <script>
-        initComparisons();
     </script>
 </body>
 

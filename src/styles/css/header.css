@@ -71,12 +71,13 @@ header .mnu_top li a:hover {
     max-width: 15%;
 }
 
-.logo {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
+.logo-svg {
+    width: 7vw;
+    height: 7vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../../img/EdroLOGO.png');
 }
 
 .center_header {
@@ -84,7 +85,7 @@ header .mnu_top li a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: -1;
+    z-index: 3;
 }
 
 header .logo {
@@ -147,6 +148,11 @@ header .logo {
 }
 
 @media (max-width: 1700px) {
+    .logo-svg {
+        width: 9vw;
+        height: 9vh;
+    }
+
     header {
         max-width: 90%;
     }
@@ -180,6 +186,11 @@ header .logo {
 
 
 @media (max-width: 1300px) {
+    .logo-svg {
+        width: 11vw;
+        height: 11vh;
+    }
+
     .edro_logo {
         max-width: 22%;
         position: relative;
@@ -193,7 +204,7 @@ header .logo {
 
 /* ____________________________________________________ */
 
-@media (max-width: 1000px) {
+@media (max-width: 1120px) {
     #desctop {
         display: none;
     }
